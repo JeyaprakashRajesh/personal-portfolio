@@ -1,0 +1,48 @@
+.profile-pic-outer-container {
+  right: -10%;
+  top: calc(50% - 15%);
+  height: 30%;
+  width: 20%;
+  position: absolute;
+}
+
+.profile-pic-container {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border: 5px var(--green) solid;
+  z-index: 1000;
+  position: relative;
+}
+.profile-pic-outer-border {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    right: -20%;
+    bottom: -20%;
+    z-index: 1;
+    border: 5px var(--purple) solid;
+}
+.profile-pic-x-pattern-purple {
+  position: absolute;
+  height: 25%;
+  background-image: url("@images/LandingPage/ProfilePic/x-pattern-purple.png");
+  background-size: contain;
+  right: -50%;
+  bottom: -30%;
+  z-index: 1;
+  width: 80%;
+  background-repeat: no-repeat;
+}
+.profile-pic-x-pattern-green {
+  position: absolute;
+  height: 25%;
+  background-image: url("@images/LandingPage/ProfilePic/x-pattern-green.png");
+  background-size: contain;
+  left: -45%;
+  top: -10%;
+  z-index: 1;
+  width: 80%;
+  background-repeat: no-repeat;
+}

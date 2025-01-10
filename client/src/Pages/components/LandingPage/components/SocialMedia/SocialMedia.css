@@ -1,0 +1,26 @@
+.landing-page-social-media-container {
+    height: 5%;
+    width: 16%;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 5%;
+    min-width: 18vh;
+}
+.landing-page-social-media-inner-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.landing-page-social-media-icons {
+    height: 100%;
+    aspect-ratio: 1;
+    background-size: contain;
+    transition: transform 0.1s ease-in-out;
+}
+.landing-page-social-media-icons:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

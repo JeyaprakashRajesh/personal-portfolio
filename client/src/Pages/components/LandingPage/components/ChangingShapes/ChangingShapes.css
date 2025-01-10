@@ -1,0 +1,66 @@
+.changing-shapes-container {
+    width: 30%;
+    aspect-ratio: 1;
+    position: absolute;
+    bottom: 25%;
+    right: 13%;
+  }
+  
+  .changing-shapes-inner-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "one two"
+      "three four";
+    animation: looping 3s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+  }
+  
+  @keyframes looping {
+    0% {
+      grid-template-areas: "one two" "three four";
+    }
+    25% {
+      grid-template-areas: "three one" "four two";
+    }
+    50% {
+      grid-template-areas: "four three" "two one";
+    }
+    75% {
+      grid-template-areas: "two four" "one three";
+    }
+    100% {
+      grid-template-areas: "one two" "three four";
+    }
+  }
+  
+  .changing-shapes-square-one {
+    grid-area: one;
+    height: 100%;
+    width: 100%;
+    background-color: var(--purple);
+  }
+  
+  .changing-shapes-square-two {
+    grid-area: two;
+    height: 100%;
+    width: 100%;
+    background-color: var(--purple);
+    border-radius: 2000px;
+  }
+  
+  .changing-shapes-square-three {
+    grid-area: three;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 2000px;
+  }
+  
+  .changing-shapes-square-four {
+    grid-area: four;
+    height: 100%;
+    width: 100%;
+    background-color: var(--purple);
+  }
+  

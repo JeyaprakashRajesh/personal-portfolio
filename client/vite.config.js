@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@root': path.resolve(__dirname, './src'), // Adjust './src' to your root directory
+      '@images' : path.resolve(__dirname , './src/assets/images')
     },
   },
 });

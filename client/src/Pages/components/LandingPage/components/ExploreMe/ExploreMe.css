@@ -1,0 +1,51 @@
+.explore-me-container {
+    height: 7%;
+    width: 60%;
+    border: 5px solid var(--purple);
+    position: absolute;
+    bottom: 9%;
+    left: 10%;
+    border-radius: 20px;
+  }
+  
+  .explore-me-inner-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .explore-me-button-img {
+    height: 35%;
+    aspect-ratio: 1;
+    background-image: url("@images/LandingPage/explore-button.png");
+    background-size: contain;
+    position: absolute;
+    left: 3%;
+    top: 32.5%;
+  }
+  
+  .explore-me-text-container {
+    font-size: 1.5vw;
+  }
+  
+  .explore-me-default-text {
+    font-family: "Handjet";
+    font-weight: 700;
+  }
+  
+  .explore-me-variable-text {
+    font-family: "Pixelify Sans";
+    white-space: nowrap; 
+    border-right: 2px solid var(--purple);
+    animation: blink 1s step-end infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  

@@ -1,0 +1,73 @@
+.x-o-game-container {
+    width: 35%;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.x-o-game-inner-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        "one two three"
+        "four five six"
+        "seven eight nine";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.x-o-game-inner-container div {
+    border: 3px solid var(--purple);
+}
+.x-o-game-inner-container .x-o-game-1 {
+    grid-area: one;
+    border-top-left-radius: 15px;
+}
+.x-o-game-inner-container .x-o-game-2 {
+    grid-area: two;
+}
+.x-o-game-inner-container .x-o-game-3 {
+    grid-area: three;
+    border-top-right-radius: 15px;
+}
+.x-o-game-inner-container .x-o-game-4 {
+    grid-area: four;
+}
+.x-o-game-inner-container .x-o-game-5 {
+    grid-area: five;
+}
+.x-o-game-inner-container .x-o-game-6 {
+    grid-area: six;
+}
+.x-o-game-inner-container .x-o-game-7 {
+    grid-area: seven;
+    border-bottom-left-radius: 15px;
+}
+.x-o-game-inner-container .x-o-game-8 {
+    grid-area: eight;
+}
+.x-o-game-inner-container .x-o-game-9 {
+    grid-area: nine;
+    border-bottom-right-radius: 15px;
+}
+.x-o-game-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+@keyframes flash-symbol {
+    0%, 100% {
+      opacity: 1; 
+    }
+    50% {
+      opacity: 0; 
+    }
+  }
+  
+  .flashing-symbol {
+    animation: flash-symbol 0.5s linear infinite; 
+    animation-iteration-count: 2;
+  }
+  

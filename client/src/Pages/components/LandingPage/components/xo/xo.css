@@ -1,0 +1,28 @@
+.x-o-container {
+    height: 5%;
+    position: absolute;
+    right: 12%;
+    top: 16.5%;
+}
+.x-o-inner-container {
+    height: 100%;
+    border: 4px solid var(--purple);
+    border-radius: 15px;
+    display: flex;background-size: contain;
+    flex-direction: row;
+}
+.x-o-inner-container div {
+    height: 100%;
+    aspect-ratio: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.x-o-cross {
+    background-image: url("@images/LandingPage/xo/cross.png");
+    background-size: 50%;
+}
+.x-o-circle {
+    background-image: url("@images/LandingPage/xo/circle.png");
+    background-size: 55%;
+}

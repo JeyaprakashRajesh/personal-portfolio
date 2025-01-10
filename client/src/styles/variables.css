@@ -1,0 +1,18 @@
+:root {
+    --purple: #5921E6;
+    --green : #AFEC33;
+
+}
+@font-face {
+    font-family: 'Dot';
+    src: url('@root/assets/fonts/DotsAllForNow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Minecraft';
+    src: url("@root/assets/fonts/Minecraftia-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -1,0 +1,60 @@
+.landing-page-content-container {
+    padding-left: 5%;
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-top: 2vh;
+}
+.landing-page-content-name-container {
+    font-family: "Dot";
+    font-size: 3.7vw;
+    color: white;
+}
+
+.landing-page-content-domain-container {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.landing-page-content-domain-image-container {
+    height: 100%;
+    aspect-ratio: 1;
+    gap: 1%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.landing-page-content-domain-text {
+    font-family: "Handjet";
+    color: white;
+    font-size: 2vw;
+}
+.landing-page-content-description {
+    font-family: "Minecraft";
+    font-size: 1vw;
+    color: white;
+    margin-top: 2vh;
+}
+.landing-page-content-dialogue {
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+.landing-page-content-dialogure-circle {
+    height: 1.5vh;
+    aspect-ratio: 1;
+    background-color: var(--green);
+    border-radius: 1000px;
+}   
+.landing-page-content-dialogue span {
+    font-family: "Handjet";
+    font-size: 2.3vw;
+    color: white;
+    letter-spacing: 0.1vw;
+}

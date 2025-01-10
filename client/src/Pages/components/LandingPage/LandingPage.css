@@ -1,0 +1,60 @@
+.landing-page-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.landing-page-left-container {
+    height: 100%;
+    width: 70%;
+    background-color: var(--purple);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.landing-page-right-container {
+    height: 100%;
+    width: 30%;
+    background-color: var(--green);
+    position: relative;
+}
+.landing-page-arrow {
+    height: 5%;
+    aspect-ratio: 1;
+    position: absolute;
+    display: flex;
+    right: 40%;
+    top: 16.5%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Handjet";
+    font-size: 2vw;
+    font-weight: 700;
+}
+.landing-page-portfolio {
+    position: absolute;
+    top: 4%;
+    right: 10%;
+    font-size: 2.5vw;
+    color: var(--purple);
+    font-family: "Handjet";
+    font-weight: 700;
+    letter-spacing: 0.12vw;
+}
+.landing-page-morse {
+    position: absolute;
+    top: 5%;
+    padding-left: 5%;
+    
+}
+.landing-page-morse-text {
+    color: transparent;
+    font-size: 3vw;
+}
+.landing-page-pencil {
+    color: var(--green);
+    opacity: 1;
+}
+.landing-page-pencil img {
+   height: 7vh;
+}
