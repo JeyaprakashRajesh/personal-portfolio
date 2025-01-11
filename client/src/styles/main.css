@@ -1,12 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght,ELSH@100..900,1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
-body{
+body {
     margin: 0;
-    height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    background-image: radial-gradient(#3333334b 10%, transparent 10%);
+    background-size: 1.5vw 1.5vw;
+
+    background-attachment: fixed;
+    background-position: center top;
+    cursor: url("../assets/images/spider.png"), auto;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;    
+}
+body::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #363636;
+}
+
 #root {
-    height: 100%;
     width: 100%;
+    position: relative;
+    z-index: 2;     
 }
+

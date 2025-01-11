@@ -4,6 +4,7 @@
   height: 30%;
   width: 20%;
   position: absolute;
+  z-index: 1000;
 }
 
 .profile-pic-container {

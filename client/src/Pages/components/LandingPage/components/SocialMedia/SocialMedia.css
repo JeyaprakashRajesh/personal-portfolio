@@ -21,6 +21,5 @@
     transition: transform 0.1s ease-in-out;
 }
 .landing-page-social-media-icons:hover {
-    cursor: pointer;
     transform: scale(1.2);
 }

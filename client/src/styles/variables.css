@@ -1,6 +1,10 @@
 :root {
-    --purple: #5921E6;
-    --green : #AFEC33;
+   /* --purple: #5921E6  ;
+    --green : #AFEC33;   93c927*/
+    --purple : #3f17a4;
+    --green :  #96cb2d ;
+    --blurPurple : #3f17a412;
+    --blurGreen : #8dd3003a;
 
 }
 @font-face {

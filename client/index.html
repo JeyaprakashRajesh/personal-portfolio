@@ -6,8 +6,16 @@
     <link rel="stylesheet" href="./src/styles/variables.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeyaprakash | Portfolio</title>
+    <script>
+      document.addEventListener("scroll", () => {
+          const scrollY = window.scrollY;
+          document.body.style.backgroundPosition = `center ${scrollY * 0.3}px`;
+      });
+  </script>
+  
   </head>
   <body>
+    <div id="clouds"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

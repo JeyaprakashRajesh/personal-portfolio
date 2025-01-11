@@ -6,7 +6,7 @@ export default function PortfolioContent() {
     return (
         <section className="landing-page-content-container">
             <div className="landing-page-content-name-container">
-                Jeyaprakash R
+                <span>{"<"}</span> Jeyaprakash R /<span>{">"}</span>
             </div>
             <div className="landing-page-content-domain-container">
                 <div className="landing-page-content-domain-image-container"
@@ -18,7 +18,7 @@ export default function PortfolioContent() {
                 <div className="landing-page-content-domain-text">Software Developer</div>
             </div>
             <div className="landing-page-content-description">
-            I am a skilled Software Developer with expertise in web and mobile development, UI/UX design, and version control using Git and GitHub.
+            I am a skilled Software Developer with expertise in web and mobile app development, UI/UX design, and version control using Git and GitHub.
             </div>
             <div className="landing-page-content-dialogue">
                 <span>Eat</span>

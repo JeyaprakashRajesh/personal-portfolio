@@ -1,60 +1,77 @@
 .landing-page-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
 }
 .landing-page-left-container {
-    height: 100%;
-    width: 70%;
-    background-color: var(--purple);
-    position: relative;
-    display: flex;
-    align-items: center;
+  height: 100%;
+  width: 70%;
+  background-color: #3f17a412;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-right: 3px solid #3f17a454;
+  z-index: 1000;
+  box-shadow: 0 8px 32px 0 #3f17a434;
 }
 .landing-page-right-container {
-    height: 100%;
-    width: 30%;
-    background-color: var(--green);
-    position: relative;
+  height: 100%;
+  width: 30%;
+  background-color: #8dd3003a;
+  position: relative;
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 #8dd3003a;
 }
 .landing-page-arrow {
-    height: 5%;
-    aspect-ratio: 1;
-    position: absolute;
-    display: flex;
-    right: 40%;
-    top: 16.5%;
-    align-items: center;
-    justify-content: center;
-    font-family: "Handjet";
-    font-size: 2vw;
-    font-weight: 700;
+  height: 5%;
+  aspect-ratio: 1;
+  position: absolute;
+  display: flex;
+  right: 40%;
+  top: 16.5%;
+  align-items: center;
+  justify-content: center;
+  font-family: "Handjet";
+  font-size: 2vw;
+  font-weight: 700;
 }
 .landing-page-portfolio {
-    position: absolute;
-    top: 4%;
-    right: 10%;
-    font-size: 2.5vw;
-    color: var(--purple);
-    font-family: "Handjet";
-    font-weight: 700;
-    letter-spacing: 0.12vw;
+  position: absolute;
+  top: 7%;
+  right: 10%;
+  font-size: 2.5vw;
+  color: var(--purple);
+  font-family: "Handjet";
+  font-weight: 700;
+  letter-spacing: 0.12vw;
 }
 .landing-page-morse {
-    position: absolute;
-    top: 5%;
-    padding-left: 5%;
-    
+  position: absolute;
+  top: 5%;
+  padding-left: 5%;
 }
 .landing-page-morse-text {
-    color: transparent;
-    font-size: 3vw;
+  color: transparent;
+  font-size: 3vw;
 }
 .landing-page-pencil {
-    color: var(--green);
-    opacity: 1;
+  color: var(--green);
+  opacity: 1;
 }
 .landing-page-pencil img {
-   height: 7vh;
+  height: 7vh;
+}
+.landing-page-dialogue {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  font-family: "Minecraft";
+  font-size: 1.35vw;
+  color: #333333;
 }

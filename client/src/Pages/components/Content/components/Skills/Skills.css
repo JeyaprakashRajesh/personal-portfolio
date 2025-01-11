@@ -1,0 +1,6 @@
+.skills-container {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}   

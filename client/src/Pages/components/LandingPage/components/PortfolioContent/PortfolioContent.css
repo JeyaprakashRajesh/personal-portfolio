@@ -10,7 +10,8 @@
 .landing-page-content-name-container {
     font-family: "Dot";
     font-size: 3.7vw;
-    color: white;
+    color: var(--purple);
+    position: relative;
 }
 
 .landing-page-content-domain-container {
@@ -29,13 +30,13 @@
 }
 .landing-page-content-domain-text {
     font-family: "Handjet";
-    color: white;
+    color: var(--purple);
     font-size: 2vw;
 }
 .landing-page-content-description {
     font-family: "Minecraft";
     font-size: 1vw;
-    color: white;
+    color: var(--purple);
     margin-top: 2vh;
 }
 .landing-page-content-dialogue {
@@ -55,6 +56,10 @@
 .landing-page-content-dialogue span {
     font-family: "Handjet";
     font-size: 2.3vw;
-    color: white;
+    color: var(--purple);
     letter-spacing: 0.1vw;
+}
+.landing-page-content-name-container span {
+    font-family: "Handjet";
+    font-size: 6vw;
 }

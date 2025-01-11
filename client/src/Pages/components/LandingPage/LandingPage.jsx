@@ -5,7 +5,7 @@ import Xo from "./components/xo/xo";
 import SystemStats from "./components/SystemStats/SystemStats";
 import TriangleArray from "./components/TriangleArray/TriangleArray";
 import "./LandingPage.css";
-import XoGame from "./XoGame/XoGame";
+import XoGame from "./components/XoGame/XoGame";
 import { useState } from "react";
 import PortfolioContent from "./components/PortfolioContent/PortfolioContent";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
@@ -30,9 +30,9 @@ export default function LandingPage() {
         <TriangleArray />
         <ChangingShapes />
         <SystemStats />
-        <Xo isX={isX} />
-        <div className="landing-page-arrow">{"<-"}</div>
-        <XoGame setX={setX} />
+        <div className="landing-page-dialogue">
+           W3lc0m3, d1g1t4l cr4ft3rz!
+        </div>
         <div className="landing-page-portfolio">portfolio</div>
       </div>
     </section>
