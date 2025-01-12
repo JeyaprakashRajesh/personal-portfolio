@@ -42,7 +42,7 @@ const content = [
 function renderContent() {
     return content.map((tile, index) => (
         <div key={index} className="skill-tile">
-            {tile.heading}
+            
         </div>
     ));
 }
