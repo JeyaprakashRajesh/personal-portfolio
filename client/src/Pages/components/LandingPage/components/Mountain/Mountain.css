@@ -1,0 +1,16 @@
+.mountain-container {
+  position: absolute;
+    bottom: 0;
+    left: -5%;
+    height: 80vh;
+    width: 55vw;
+    z-index: 1;
+}
+.mountain-img{
+    height: inherit;
+    width: inherit;
+    background-image: url("@images/LandingPage/mountains/mountain.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

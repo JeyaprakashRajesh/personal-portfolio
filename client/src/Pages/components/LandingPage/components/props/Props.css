@@ -1,0 +1,11 @@
+.bottom-land-container {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("@images/LandingPage/props/plant.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+    background-position: bottom;
+}

@@ -9,7 +9,7 @@
     <script>
       document.addEventListener("scroll", () => {
           const scrollY = window.scrollY;
-          document.body.style.backgroundPosition = `center ${scrollY * 0.3}px`;
+          document.body.style.backgroundPosition = `center ${-scrollY * 0.3}px`;
       });
   </script>
   
