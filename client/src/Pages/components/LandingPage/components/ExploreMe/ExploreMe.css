@@ -20,7 +20,7 @@
   .explore-me-button-img {
     height: 35%;
     aspect-ratio: 1;
-    background-image: url("@images/LandingPage/explore-button.png");
+    background-image: url("@images/LandingPage/ExploreMe/explore-button.png");
     background-size: contain;
     position: absolute;
     left: 3%;
