@@ -3,12 +3,16 @@ import './Mountain.css';
 
 export default function Mountain() {
   const mountainRef = useRef(null);
-
+  function vh(percent) {
+    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    return (percent * h) / 100;
+  }
+  
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const MAX_SCROLL_Y = 150; 
-      const translateY = Math.min(scrollY * 0.2, MAX_SCROLL_Y);
+      const MAX_SCROLL_Y = vh(12); 
+      const translateY = Math.min(scrollY * 0.25, MAX_SCROLL_Y);
       mountainRef.current.style.transform = `translateY(-${translateY}px)`;
     };
 

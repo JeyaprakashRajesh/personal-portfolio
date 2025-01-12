@@ -1,46 +1,72 @@
 .clouds-container {
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.clouds-1 {
+  height: 20%;
+  width: 18%;
+  left: 6%;
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  top: 20%;
+  animation: moveFromCenterLeft 1.5s ease-out forwards, moveLeftRight 25s ease-in-out infinite 1.5s; /* Entry and loop animation */
+}
+
+.clouds-1-image {
+  height: 100%;
+  width: 100%;
+  background-image: url("@images/LandingPage/clouds/cloud1.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clouds-2 {
+  height: 20%;
+  width: 20%;
+  right: 6%;
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  top: 30%;
+  animation: moveFromCenterRight 1.5s ease-out forwards, moveLeftRight 20s ease-in-out infinite 1.5s; /* Entry and loop animation */
+}
+
+.cloud-2-image {
+  height: 100%;
+  width: 100%;
+  background-image: url("@images/LandingPage/clouds/cloud2.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Keyframes for the left-right movement */
+@keyframes moveLeftRight {
+  0%, 100% {
+    transform: translateX(0); /* Start and end at the original position */
   }
-  
-  .clouds-1 {
-    height: 20%;
-    width: 18%;
-    left: 6%;
-    position: absolute;
-    flex-direction: column;
-    display: flex;
-    top: 20%;
+  50% {
+    transform: translateX(6vw); /* Move to the right */
   }
-  
-  .clouds-1-image {
-    height: 100%;
-    width: 100%;
-    background-image: url("@images/LandingPage/clouds/cloud1.png");
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
+}
+
+/* Keyframes for entry animation from the center */
+@keyframes moveFromCenterRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0; 
   }
-  
-  .clouds-2 {
-    height: 20%;
-    width: 20%;
-    right: 6%;
-    position: absolute;
-    flex-direction: column;
-    display: flex;
-    top: 30%;
+}
+@keyframes moveFromCenterLeft {
+  0% {
+    transform: translateX(+100%); 
+    opacity: 0;
   }
-  
-  .cloud-2-image {
-    height: 100%;
-    width: 100%;
-    background-image: url("@images/LandingPage/clouds/cloud2.png");
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+}

@@ -24,9 +24,16 @@
     font-family: "handjet";
     font-weight: 600;
     letter-spacing: 0.1vw;
-    color: rgb(89, 89, 89);
     position: absolute;
-    bottom: 20%;
+    bottom: 17%;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-shadow: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.613);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 .landing-page-content-social {
     position: absolute;
