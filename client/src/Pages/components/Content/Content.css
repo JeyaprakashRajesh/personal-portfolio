@@ -1,28 +1,20 @@
 .content-container {
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .content-container-heading {
-    display: flex;
-    width: min-content;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    font-family: "Pixelify Sans";
-    font-size: 2.5vw;
-    padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: #3f17a412;
-    border-radius: 15px;
+    font-family: "minecraft";
+    font-size: 2vw;
+    background-color: var(--blurBlue);
+    border-radius: 20px;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
     backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
-  box-shadow: 0 8px 32px 0 #3f17a434;
+  margin: 4%;
 }
-.content-container-heading span {
-    font-family: "Handjet";
-    font-weight: 700;
-}
+

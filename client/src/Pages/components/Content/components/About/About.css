@@ -1,0 +1,54 @@
+.content-about-container {
+  height: 60vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.content-about-element {
+
+  width: 35%;
+  background-color: var(--blurBlue);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  border-radius: 15px;
+  
+}
+.content-about-element-heading {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content-about-element-heading-image {
+    height: 30%;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content-about-element-heading-content {
+    font-family: "Minecraft";
+    font-size: 1.5vw;
+    padding-top: 4%;
+}
+.content-about-element-content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    font-family: "handjet";
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.content-about-element-content span {
+    font-weight: 700;
+
+}

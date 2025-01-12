@@ -12,7 +12,6 @@ body {
 
     background-attachment: fixed;
     background-position: center top;
-    cursor: url("../assets/images/spider.png"), auto;
 }
 
 body::-webkit-scrollbar {

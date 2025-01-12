@@ -1,0 +1,43 @@
+.clouds-container {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.clouds-1 {
+    height: 20%;
+    width: 18%;
+    left: 6%;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    top: 20%;
+}
+.clouds-1-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("@images/LandingPage/clouds/cloud1.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.clouds-2 {
+    height: 20%;
+    width: 20%;
+    right: 6%;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    top: 30%;
+}
+.cloud-2-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("@images/LandingPage/clouds/cloud2.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

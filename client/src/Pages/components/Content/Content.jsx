@@ -1,13 +1,18 @@
-import Skills from "./components/Skills/Skills"
+
+import About from "./components/About/About"
 import "./Content.css"
 
 export default function Content() {
     return(
         <div className="content-container">
             <div className="content-container-heading">
-               <span>{">_"}</span> SKILLS.map()
+                ABOUT ME
             </div>
-            <Skills />
+            <About />
+            <div className="content-container-heading">
+                SKILLS
+            </div>
+            
         </div>
     )
 }

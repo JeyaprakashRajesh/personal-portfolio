@@ -1,0 +1,39 @@
+.header-container {
+    height: 18vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+.header-heading {
+    height: 100%;
+    align-content: center;
+    padding-left: 3%;
+    font-family: "Minecraft";
+    font-size: 1.7vw;
+    color: var(--brown);
+    text-shadow: 0px 1px 1px orange;
+
+}
+.header-navigator {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: end;
+    margin-right: 3%;
+    gap: 5%;
+}
+.header-navigator-element {
+    padding: 2%;
+    font-family: "Pixelify Sans";
+    font-size: 1.2vw;
+    text-shadow: 0px 1px 1px orange;
+}
+.header-navigator-element:hover {
+    color: orange;
+    text-shadow: 0px 1px 1px var(--brown);
+    cursor: pointer;
+}
