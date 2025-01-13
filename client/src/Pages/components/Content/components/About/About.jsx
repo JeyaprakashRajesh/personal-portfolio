@@ -5,6 +5,9 @@ import exp from "@images/Content/About/quality.png";
 export default function About() {
   return (
     <div className="content-about-container">
+      <div className="content-about-heading">
+        ABOUT ME
+      </div>
       <div className="content-about-element">
         <div className="content-about-element-heading">
           <div

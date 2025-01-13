@@ -9,3 +9,27 @@
     z-index: 5;
     background-position: bottom;
 }
+.props-tree-container {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    right: -40%;
+    background-image: url("@images/LandingPage/props/tree.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 4;
+}
+.props-leaf-container {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    left: 0;
+    top: 0;
+    background-image: url("@images/LandingPage/props/leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top; 
+    z-index: 4;
+}
