@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./props.css";
+import "./Props.css";
 
 export default function Tree() {
     const [scrollOffset, setScrollOffset] = useState(0);
