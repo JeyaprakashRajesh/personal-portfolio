@@ -1,20 +1,5 @@
 .content-container {
     min-height: 100vh;
     width: 100%;
-    background-color: #013730;
     position: relative;
-}
-.content-about-heading {
-  position: absolute;
-  z-index: 5;
-  font-family: "Goonies";
-  color: white;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  font-size: 3vw;
 }

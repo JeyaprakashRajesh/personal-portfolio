@@ -1,6 +1,4 @@
 import "./About.css";
-import edu from "@images/Content/About/education.png";
-import exp from "@images/Content/About/quality.png";
 
 export default function About() {
   return (
@@ -8,7 +6,8 @@ export default function About() {
       <div className="content-about-heading">
         ABOUT ME
       </div>
-      <div className="content-about-element">
+      
+      {/* <div className="content-about-element">
         <div className="content-about-element-heading">
           <div
             className="content-about-element-heading-image"
@@ -51,7 +50,7 @@ export default function About() {
                 <span>Intern at RampeX Technologies : </span> I am a Full Stack Developer Intern at RampeX Technologies (on going)
             </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

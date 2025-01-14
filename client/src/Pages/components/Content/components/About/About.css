@@ -1,0 +1,19 @@
+.content-about-heading {
+    position: absolute;
+    z-index: 2;
+    font-family: "Goonies";
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    font-size: 3.5vw;
+}
+.content-about-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #013730;
+}
