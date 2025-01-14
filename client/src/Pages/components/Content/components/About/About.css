@@ -1,19 +1,167 @@
 .content-about-heading {
-    position: absolute;
-    z-index: 2;
-    font-family: "Goonies";
-    color: white;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    font-size: 3.5vw;
+  position: absolute;
+  z-index: 2;
+  font-family: "Goonies";
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  font-size: 3.5vw;
+  overflow: hidden;
 }
+
 .content-about-container {
-    height: 100vh;
-    width: 100%;
-    background-color: #013730;
+  height: 100vh;
+  width: 100%;
+  background-color: #013730;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-about-leaf-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.leaf {
+  position: absolute;
+  width: 4vh;
+  height: 4vh;
+  pointer-events: none;
+  opacity: 0.1;
+  transition: transform 0.1s linear;
+}
+.contnet-about-education {
+  height: 40%;
+  width: 80%;
+  /* background-color: aliceblue; */
+  position: absolute;
+  top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.content-about-experience {
+  height: 40%;
+  width: 80%;
+  /* background-color: aliceblue; */
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.content-about-element-main-heading {
+  font-family: "MONTSERRAT";
+  font-weight: 700;
+  font-size: 1.8vw;
+  color: white;
+}
+.content-about-element {
+  height: 100%;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.281);
+  border-radius: 15px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+.content-about-element-heading {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px rgba(255, 255, 255, 0.473) solid;
+}
+.content-about-element-heading-icon {
+  width:  12%;
+  aspect-ratio: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.content-about-element-heading-content {
+  font-size: 1.2vw;
+  font-family: "montserrat";
+  color: white;
+  font-weight: 500;
+  width: 30%;
+  text-align: center;
+  align-content: center;
+}
+.content-about-element-content {
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  color: white;
+  font-family: "montserrat";
+  font-size: 0.65vw;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  overflow-y: auto;
+}
+.content-about-element-content span {
+  font-weight: 600;
+}
+.content-about-element-content ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 3%;
+}
+.content-about-element-content div {
+  padding: 0.5%;
+}
+/* .content-about-top-line {
+  position: absolute;
+  height: 16%;
+  width: 8px;
+  background-color: rgba(255, 255, 255, 0.486);
+  border-radius: 1000px;
+  top:28%;
+}
+.content-about-bottom-line {
+  position: absolute;
+  height: 18%;
+  width: 8px;
+  background-color: rgba(255, 255, 255, 0.486);
+  border-radius: 1000px;
+  bottom:28%;
+} */
+.content-about-element-heading-content-left-line {
+  position: absolute;
+  height: 8px;
+  width: 9%;
+  background-color: rgba(255, 255, 255, 0.486);
+  border-radius: 1000px;
+  top: calc(50% - 4px);
+  left: 32%;
+}
+.content-about-element-heading-content-right-line {
+  position: absolute;
+  height: 8px;
+  width: 9%;
+  background-color: rgba(255, 255, 255, 0.486);
+  border-radius: 1000px;
+  top: calc(50% - 4px);
+  right: 32%;
 }
