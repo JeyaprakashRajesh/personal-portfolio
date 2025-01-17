@@ -98,7 +98,7 @@
   background-size: contain;
 }
 .content-about-element-heading-content {
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   font-family: "montserrat";
   color: white;
   font-weight: 500;
@@ -113,8 +113,8 @@
   flex: 1;
   color: white;
   font-family: "montserrat";
-  font-size: 0.65vw;
-  line-height: 25px;
+  font-size: 0.8vw;
+  line-height: 1.8vh;
   display: flex;
   flex-direction: column;
   padding: 5%;
